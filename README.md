@@ -11,5 +11,7 @@ ProjectLog[4] - Working on the CSS part of the project. </br>
 ProjectLog[5] - Added the trim function for the input string, which would prevent detecting spaces as separate words. </br>
 ProjectLog[6] - Completed the CSS styling for the project. Added some input validations, to prevent empty string inputs. </br>
 ProjectLog[7] - The project is ready for desktop and now working on the mobile part of the project with various other smaller screen sizes. </br>
+ProjectLog[8] - Working on the project's smaller screen sizes use cases. </br>
+ProjectLog[9] - Completed the mobile version of the project, and also bundled all the repeating code. </br>
 
 
