@@ -14,4 +14,4 @@ ProjectLog[7] - The project is ready for desktop and now working on the mobile p
 ProjectLog[8] - Working on the project's smaller screen sizes use cases. </br>
 ProjectLog[9] - Completed the mobile version of the project, and also bundled all the repeating code. </br>
 
-
+<img width="1440" alt="Screenshot 2022-11-03 at 01 21 48" src="https://user-images.githubusercontent.com/37664832/199589171-cc04beb5-fe41-48bb-999f-aaba465f6cf5.png">
