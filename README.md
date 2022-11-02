@@ -1,4 +1,6 @@
 # word-counter
+View the project <a href="https://vibhatsu08.github.io/word-counter/">here</a>.
+
 Title - Word Counter </br>
 
 ProjectLog[0] - Starting with the simple project of word counter, the overall goal of this project to put my JS skills to the test. </br>
