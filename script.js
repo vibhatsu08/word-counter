@@ -4,15 +4,25 @@ const displayInputString = document.getElementById('display');
 const words = document.getElementById('number-of-words');
 
 updateTextAndWords = () => {
-    displayInputString.textContent = inputTextField.value;
-    words.textContent = inputTextField.value.length;
+    if (inputTextField.value.trim() == "") {
+        window.alert("Enter valid input!");
+    }
+    else {
+        displayInputString.textContent = inputTextField.value;
+        words.textContent = inputTextField.value.length;
 
-    let str = displayInputString.textContent;
+        let str = inputTextField.value.trim();
 
-    let wordsArr = str.split(' ');
-    let wordsLength = wordsArr.length;
+        let wordsArr = str.split(' ');
+        let wordsLength = wordsArr.length;
 
-    words.textContent = wordsLength;
+        if (wordsLength > 1) {
+            words.textContent = wordsLength + " words";
+        }
+        else {
+            words.textContent = wordsLength + " word";
+        }
+    }
 }
 
 calculateButton.addEventListener ('click', updateTextAndWords);
