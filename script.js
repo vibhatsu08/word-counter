@@ -11,10 +11,9 @@ updateTextAndWords = () => {
         displayInputString.textContent = inputTextField.value;
         words.textContent = inputTextField.value.length;
 
-        let str = inputTextField.value.trim();
+        let str = inputTextField.value;
 
-        let wordsArr = str.split(' ');
-        let wordsLength = wordsArr.length;
+        let wordsLength = str.trim().split(/\s+/).length;
 
         if (wordsLength > 1) {
             words.textContent = wordsLength + " words";
