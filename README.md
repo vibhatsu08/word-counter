@@ -15,4 +15,4 @@ ProjectLog[8] - Working on the project's smaller screen sizes use cases. </br>
 ProjectLog[9] - Completed the mobile version of the project, and also bundled all the repeating code. </br>
 ProjectLog[10] - Fixed this bug, so basically if the user were to add multiple lines in the input, by pressing enter, all those words would fuse and turn into one single word. Added regex instead of the older way to solve the issue. </br>
 
-
+<img width="1440" alt="Screenshot 2022-11-03 at 01 21 48" src="https://user-images.githubusercontent.com/37664832/199589171-cc04beb5-fe41-48bb-999f-aaba465f6cf5.png">
